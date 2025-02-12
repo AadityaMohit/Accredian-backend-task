@@ -10,10 +10,11 @@ app.use(cors());
 app.use(express.json());
  
 const DATABASE_URL = "mysql://root:12345@localhost:3306/referralDB";
-require('dotenv').config();
 
-const EMAIL_USER = process.env.EMAIL_USER;
-const EMAIL_PASS = process.env.EMAIL_PASS;
+
+
+const EMAIL_USER = "aadityamohit0308@gmail.com";
+const EMAIL_PASS = "zsyl ybev bwiw cyaw";
 
 console.log("Email User:", EMAIL_USER);
 
